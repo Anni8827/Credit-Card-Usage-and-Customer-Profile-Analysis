@@ -47,25 +47,25 @@ This project aims to analyze credit card usage patterns and customer demographic
 ### Workflow
 
 1. **Data Preprocessing**:
-   - Merge both datasets on `Client_Num`.
-   - Handle missing values, particularly for demographics and income fields.
-   - Convert categorical variables like `Card_Category`, `Education_Level`, and `Marital_Status` into numerical or dummy variables for analysis.
+   - Merged both datasets on `Client_Num`.
+   - Handled missing values, particularly for demographics and income fields.
+   - Converted categorical variables like `Card_Category`, `Education_Level`, and `Marital_Status` into numerical or dummy variables for analysis.
 
 2. **Exploratory Data Analysis (EDA)**:
-   - Analyze customer demographics and spending patterns.
-   - Investigate the distribution of transaction types, credit limits, and utilization ratios.
-   - Segment customers based on satisfaction scores, annual fees, and acquisition costs.
+   - Analyzed customer demographics and spending patterns.
+   - Investigated the distribution of transaction types, credit limits, and utilization ratios.
+   - Segmented customers based on satisfaction scores, annual fees, and acquisition costs.
 
 3. **Feature Engineering**:
-   - Create additional metrics like spending-to-income ratios, revolving balance proportions, and loyalty indicators (based on satisfaction score).
-   - Categorize customers based on risk by combining delinquency, credit limit utilization, and income.
+   - Created additional metrics like spending-to-income ratios, revolving balance proportions, and loyalty indicators (based on satisfaction score).
+   - Categorized customers based on risk by combining delinquency, credit limit utilization, and income.
 
 4. **Predictive Analysis**:
    - Build models to predict customer delinquency or high spending behavior based on demographics, credit card features, and transactional patterns.
-   - Segment high-value customers by combining high satisfaction scores, high credit limits, and consistent spending behaviors.
+   - Segmented high-value customers by combining high satisfaction scores, high credit limits, and consistent spending behaviors.
 
 5. **Interpretation and Insights**:
-   - Derive insights from EDA and predictive modeling to identify key drivers for customer satisfaction, loyalty, and profitability.
+   - Derived insights from EDA and predictive modeling to identify key drivers for customer satisfaction, loyalty, and profitability.
 
 ---
 
