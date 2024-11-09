@@ -71,21 +71,24 @@ This project aims to analyze credit card usage patterns and customer demographic
 
 ### Key Findings
 
-1. **Customer Segmentation**:
-   - Identified primary customer segments based on demographic characteristics, spending behavior, and card usage patterns.
-   - Younger customers with higher credit limits showed higher transaction volumes but often had lower satisfaction scores due to higher fees.
+1. **Customer Segmentation**
+   - **Age & Income**: Younger customers tend to spend more on travel/entertainment, while older customers prioritize essential expenses. High-income users have lower utilization but higher transaction volumes.
+   - **Occupation-Based Trends**: Business owners and self-employed users show irregular, high-volume spending, especially on business-related expenses.
 
-2. **Card Usage Patterns**:
-   - Customers in certain occupations (e.g., Businessman and Self-employed) had a higher frequency of travel and fuel-related transactions, indicating higher utilization for specific categories.
-   - The `Avg_Utilization_Ratio` significantly impacted interest earned and delinquency likelihood.
+2. **Card Usage Patterns**
+   - **Transaction Categories**: High-income users favor travel and fuel transactions, with consistent loyalty linked to these categories.
+   - **Utilization Ratio**: Moderate utilization (30%-50%) associates with higher satisfaction, while high utilization (70%+) correlates with delinquency.
+   - **Activation Timing**: Early activation predicts higher engagement and loyalty.
 
-3. **Satisfaction and Retention Factors**:
-   - Satisfaction scores correlated positively with credit limits and negatively with high annual fees.
-   - Customers who owned a car and house showed higher satisfaction scores, likely due to financial stability.
+3. **Satisfaction & Retention Factors**
+   - **Credit Limits**: Higher limits boost satisfaction, especially among frequent users. Limit increases improve customer retention.
+   - **Fee Impact**: High fees without clear benefits lead to dissatisfaction, particularly among younger, lower-income users.
+   - **Demographic Stability**: Car/home ownership correlates with higher satisfaction, likely due to financial stability.
 
-4. **Delinquency Risks**:
-   - Delinquent accounts were more prevalent among customers with high utilization ratios and low income, indicating potential risk factors.
-   - Occupations with irregular income (e.g., self-employed) had a higher likelihood of delinquency.
+4. **Delinquency Risks**
+   - **High Utilization, Low Income**: High utilization among low-income users raises delinquency risk, especially for essential spending.
+   - **Irregular Income**: Self-employed and blue-collar workers face more delinquency due to fluctuating income.
+   - **Product Type Influence**: Premium cardholders show lower delinquency rates, as perceived value encourages responsible credit use.
 
 ---
 
